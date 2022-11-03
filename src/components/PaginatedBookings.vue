@@ -5,6 +5,9 @@
       <tr v-for="booking in bookings" :key="booking._id">
         <td>{{ booking._id }}</td>
         <td>{{ booking.email }}</td>
+        <td>
+          <router-link :to="`/booking/${booking._id}`">Details</router-link>
+        </td>
       </tr>
     </table>
     <button v-for="i in pages" :key="i" @click="fetchPage(i)">{{ i }}</button>
@@ -19,7 +22,7 @@ export default {
   props: {
     msg: String
   },
-  setup() {
+  setup(props) {
     const bookings = ref([]);
     const lastPage = ref(0);
     const perPage = ref(2);
@@ -50,6 +53,7 @@ export default {
     // onMounted(() => { fetchPage(1) });
     onMounted(function () {
       fetchPage(1);
+      alert(props.msg)
     });
 
     return {
