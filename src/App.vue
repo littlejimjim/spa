@@ -1,9 +1,24 @@
 <template>
   <nav>
+    <h1>Inventory</h1>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/book">Books</router-link> |
+    <router-link to="/game">Game</router-link> |
+    <router-link to="/gifts">Gifts</router-link> |
+    <router-link to="/materials">Materials</router-link>
+    <div class="topnav">
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search" >
+          <button type="submit" >Search</button>
+        </form>
+      </div>
+    </div>
+
   </nav>
-  <router-view/>
+  <div class="container text-start">
+  <router-view />
+  </div>
 </template>
 
 <style>
@@ -12,7 +27,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #1d2732;
 }
 
 nav {

@@ -1,13 +1,13 @@
 <template>
-  <div class="book">
-    <button type="button" class="btn btn-primary float-right" onclick="location.href = '/new_book'">Add</button>
+  <button type="button" class="btn btn-primary"  onclick="location.href = '/newgift'">Add</button>
+  <div class="gifts">
     <!-- six boostrap card three card in a row-->
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col">
         <div class="card">
           <img src="https://images-na.ssl-images-amazon.com/images/I/51ZQZQ1ZQlL._SX258_BO1,204,203,200_.jpg" class="card-img-top">
           <div class="card-body">
-            <h5 class="card-title">book title</h5>
+            <h5 class="card-title">gift title</h5>
           </div>
         </div>
       </div>
@@ -15,7 +15,7 @@
         <div class="card">
           <img src="https://images-na.ssl-images-amazon.com/images/I/51ZQZQ1ZQlL._SX258_BO1,204,203,200_.jpg" class="card-img-top">
           <div class="card-body">
-            <h5 class="card-title">book title</h5>
+            <h5 class="card-title">gift title</h5>
           </div>
         </div>
       </div>
@@ -23,7 +23,7 @@
         <div class="card">
           <img src="https://images-na.ssl-images-amazon.com/images/I/51ZQZQ1ZQlL._SX258_BO1,204,203,200_.jpg" class="card-img-top">
           <div class="card-body">
-            <h5 class="card-title">book title</h5>
+            <h5 class="card-title">gift title</h5>
           </div>
         </div>
       </div>
@@ -31,7 +31,7 @@
         <div class="card">
           <img src="https://images-na.ssl-images-amazon.com/images/I/51ZQZQ1ZQlL._SX258_BO1,204,203,200_.jpg" class="card-img-top">
           <div class="card-body">
-            <h5 class="card-title">book title</h5>
+            <h5 class="card-title">gift title</h5>
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@
         <div class="card">
           <img src="https://images-na.ssl-images-amazon.com/images/I/51ZQZQ1ZQlL._SX258_BO1,204,203,200_.jpg" class="card-img-top">
           <div class="card-body">
-            <h5 class="card-title">book title</h5>
+            <h5 class="card-title">gift title</h5>
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@
         <div class="card">
           <img src="https://images-na.ssl-images-amazon.com/images/I/51ZQZQ1ZQlL._SX258_BO1,204,203,200_.jpg" class="card-img-top">
           <div class="card-body">
-            <h5 class="card-title">book title</h5>
+            <h5 class="card-title">gift title</h5>
           </div>
         </div>
       </div>
